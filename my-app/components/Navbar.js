@@ -5,7 +5,7 @@ export default function Navbar({
   professionalPhone = "+39 041 530 23 63",
   excursionEmail = "api@dogedivenezia.it",
   excursionPhone = "+39 041 315 63 02",
-  logoSrc = "https://www.dogedivenezia.it/_next/image?url=%2Fimages%2Flogo.png&w=96&q=75",
+  logoSrc = "LOGO.jpg",
   menuItems = [
     { name: "Home Page", href: "#" },
     { name: "Escursioni Giornaliere", href: "#" },
