@@ -2,11 +2,9 @@ import React from "react";
 
 export default  function Footer({
   immagine,
-  doge,
   gruppi,
   individuali,
   follow,
-  pagamento,
   footer1,
   footer2,
   luogo1,
@@ -16,10 +14,10 @@ export default  function Footer({
   email1,
   tel2,
   email2,
+  luogo
 }) {
   return (
     <div className="">
-      <meta name="description" content="Il Doge di Venezia" />
       <link rel="icon" href="/favicon.ico" />
 
       <footer className="bg-white pt-8">
@@ -27,13 +25,12 @@ export default  function Footer({
           <a href="">
             <img
               src= {immagine}
-              className="w-28 "
             />
           </a>
         </div>
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
           <div className="text-center mb-4 md:mb-0">
-            <h2 className="text-pink-800">{doge}</h2>
+            <h2 className="text-blue-400">{luogo}</h2>
             <p className="text-gray-800">
             {luogo1}
             <br/>
@@ -42,7 +39,7 @@ export default  function Footer({
           </div>
 
           <div className="text-center mb-4 md:mb-0">
-            <h2 className="text-pink-800 pl-10">
+            <h2 className="text-blue-400 pl-10">
             {gruppi}
             </h2>
             <p className="text-gray-800 pl-10">
@@ -56,7 +53,7 @@ export default  function Footer({
           <div className="text-center mb-4 md:mb-0"></div>
 
           <div className="text-center mb-4 md:mb-0 pl-10">
-            <h2 className="text-pink-800">
+            <h2 className="text-blue-400">
             {individuali}
             </h2>
             <p className="text-gray-800">
@@ -66,7 +63,7 @@ export default  function Footer({
             </p>
           </div>
           <div className="text-center mb-4 md:mb-0 pl-10">
-            <h2 className="text-pink-800">{follow}</h2>
+            <h2 className="text-blue-400">{follow}</h2>
             <div className="flex justify-center md:justify-start space-x-4">
               <a
                 className="text-black"
@@ -112,20 +109,8 @@ export default  function Footer({
               </a>
             </div>
           </div>
-          <div className="text-center pl-10 ">
-            <h2 className="text-pink-800">
-            {pagamento}
-            </h2>
-            <div className="flex justify-center md:justify-start space-x-2">
-              <img
-                src="https://www.dogedivenezia.it/_next/image?url=%2Fimages%2Fcarte.png&w=1920&q=75"
-                width="200"
-                height="120"
-              />
-            </div>
-          </div>
         </div>
-        <div className="bg-pink-800 text-white text-center py-2 mt-8">
+        <div className="bg-blue-400 text-white text-center py-2 mt-8">
           <p>
           {footer1}
           </p>

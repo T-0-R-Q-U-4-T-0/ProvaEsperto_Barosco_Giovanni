@@ -3,11 +3,6 @@ import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import Navbar from "@/components/Navbar";
 import Privacy from "@/components/privacy";
-import Titolo from "@/components/titolo";
-import Cardescursione from "@/components/cardescursione"
-import Cardescursione2 from "@/components/cardescursione2";
-import Card from "@/components/card";
-
 
 
 export default function Home() {
@@ -62,37 +57,6 @@ export default function Home() {
       tel2="Tel: +39 041 315 63 02"
       email2="E-Mail: api@casadiriposo.it"
       />
-      <Titolo
-       sopratitolo = "Escursioni Giornaliere"
-       sottotitolo1 = "Lasciati trasportare da una brezza marina mentre ammiri i palazzi storici, i ponti iconici e i tesori nascosti della città. Vivi l'emozione di vedere Venezia dal suo elemento più autentico: l'acqua."
-      />
-    <CardFeatured
-    immagine = "☏"
-    titolo = "Prenotazione Istantanea"
-    descrizione = "Prenota il tuo tour a Venezia in pochi click, senza attese."
-    />
-    <Cardescursione
-      titolo = "Escursione alle 3 Isole Murano - Burano - Torcell..."
-      partenza = "Partenza: Venezia"
-      durata = "Durata: 6h 30m"
-      disponibilita = " Data: 1 aprile 2024"
-      costo = "35,00 €"
-      immagine = "https://www.dogedivenezia.it/_next/image?url=https%3A%2F%2Fbackoffice.dogedivenezia.it%2Fassets%2F44a433f7-5679-4730-adf3-69d0e99d9924.jpg&w=2048&q=75"
-      prenota = "PRENOTA SUBITO!"
-    />
-    <Cardescursione2
-      titolo = "Escursione alle 3 Isole Murano - Burano - Torcello"
-      descrizione = "La nostra prima tappa, Murano, scopri perché l'isola è rinomata per le sue vetrerie con una visita a una fabbrica di vetro locale. Guarda un abile artigiano durante una dimostrazione della lavorazione del vetro. Successivamente, avrai circa un'ora sull'isola per fare shopping in uno dei tanti negozi di vetro."
-      partenza = "Partanze: Venezia"
-      durata = "Durata: 6h 30m"
-      disponibilita = " Data: 1 aprile 2024"
-      costo = "35,00 €"
-    />
-    <Card
-     immagine = "https://www.aloharicevimenti.it/wp-content/uploads/2019/01/matrimonio.jpg"
-     titolo = "Matrionio a bordo"
-     descrizione = "Scopri il fascino di Venezia in un modo unico e romantico con il nostro servizio Matrimonio a Bordo. Immagina di dire Sì circondato dalle incantevoli acque della..."
-    />
     </div>
   );
 }
